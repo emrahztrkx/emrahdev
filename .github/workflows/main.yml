@@ -27,4 +27,4 @@ jobs:
           aws-region: eu-west-1
 
       - name: Deploy to S3 bucket
-        run: aws s3 sync ./build/ s3://emrahdev --delete
+        run: aws s3 sync ./build/ s3://emrah.dev --delete
